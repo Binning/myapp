@@ -1,0 +1,551 @@
+html{
+	height: 100%
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	height: 100%;
+	margin:0px;
+	background-color: #f6f6f6;
+}
+a{
+	text-decoration: none;
+	color:#555555
+}
+a:hover{
+	color: red;
+}
+
+.gudingl{
+	position:fixed;
+	height:80%;
+	width:50px;
+	top:10%;
+	left:10px;
+	background-color:#918888;
+	z-index:8000;
+}
+.gudingl ul li{
+	margin-top:22px;
+}
+/*          导航       */
+#nav-img{
+     width: 1350px;
+    height:85px;
+    margin:0px;
+}
+nav div{
+	text-align: right;
+	margin-right: 80px;
+
+}
+nav div a{
+	padding-right: 10px;
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+	display: inline-block;
+	border-right: 1px solid gray;
+	margin-left: 10px;
+	/*background-color: red;*/
+	/*height: 28px;*/
+}
+#bei{
+	margin-right: 180px;
+	border: none;
+	
+}
+nav{
+	margin-top: -6px;
+	 width: 1350px;
+	height: 30px;
+	background-color: #e3e4e5;
+}
+#location{
+	height: 15px;
+	width: 15px;
+}
+.descendant{
+	opacity: 0.4;
+	width: 10px;
+	height: 10px;
+}
+#logo{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 85px;
+	left: 78px;
+	z-index: 1000;
+}
+
+main{
+	background-color: #f6f6f6;
+	height: 100%;
+    width: 1350px;
+	position:relative;
+}
+main section{
+	position: relative;
+}
+#div-first{
+	position: absolute;
+	left: 400px;
+	top: 30px;
+	/*background-color: yellow;*/
+}
+#div-first input{
+	/*position: absolute;*/
+	height: 35px;
+	width: 500px;
+	border:1px solid red;
+}
+#div-first label{
+	background-color: red;
+	display: inline-block;
+	height: 35px;
+	width: 50px;
+	top: 0px;
+	position: absolute;
+}
+#div-first a{
+	text-decoration:none;
+	font-size: 12px;
+	color: #999999;
+	margin-left: 3px;
+}
+#span{
+	position: absolute;
+	right: 180px;
+	top:30px;
+}
+#span1{
+	position: absolute;
+	right: 80px;
+	top:2px;
+}
+#text-nav{
+	position: absolute;
+	top:110px;
+	left: 300px;
+}
+#text-nav a{
+	margin-left: 22px;
+	font-size: 16px;
+	font-weight: 900;
+}
+.shuxian{
+	border-left: 1px solid #666;
+	height: 10px;
+	width: 1px;
+	display: inline-block;
+	margin-left: 15px;
+}
+#xiadan{
+	position: absolute;
+	top: 90px;
+	right: 100px;
+}
+#nav-left{
+	height: 470px;
+	width: 190px;
+	background-color: #6e6568;
+	position: absolute;
+	left:78px;
+	top: 140px;
+}
+#myCarousel{
+	width: 780px;
+	position: absolute;
+	top: 145px;
+	left: 300px;
+}
+ul{
+	margin-left: 5px;
+	padding: 5px;
+}
+li{
+	list-style: none;
+	margin-top: 8px;
+	color: white;
+}
+ul li a{
+	color: white;
+}
+#nav-right{
+	height: 470px;
+	width: 190px;
+	background-color: #f6f6f6;
+	position: absolute;
+	right:75px;
+	top: 145px;
+}
+#register{
+	background-color: white;
+}
+#register img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin-left: 10px;
+	float: left;
+	margin: 5px;
+}
+.clean{
+	clear:both;
+}
+.fuli{
+	display: inline-block;
+	border: 1px solid red;
+	color: red;
+	margin-left: 18px;
+	margin-top: 20px;
+}
+.cuxiao{
+	background-color: white;
+	margin-top: 5px;
+}
+#hr{
+	border-bottom: 1px solid #f6f6f6;
+}
+#more{
+	margin-left:80px;
+	display: inline-block;
+	border-bottom: 1px solid red;
+}
+.p{
+	font-size: 12px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+.huafei:hover{
+	border: 1px solid red;
+}
+#fs{
+	position: absolute;
+	top: 482px;
+	left: 300px;
+}
+#sec{
+	position: absolute;
+	top: 480px;
+	left: 690px;
+}
+#modal{
+	background-color: #f6f6f6;
+	/*height: 100%;*/
+    width: 1350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.shop{
+	width: 1200px;
+	/*height: 200px;*/
+	/*background-color: red;*/
+}
+.daojishi{
+	height: 53px;
+	width: 1200px;
+	background-color: #e01222;
+}
+.daojishi p{
+	display: inline-block;
+	margin-left: 550px;
+	color: white;
+	font-size: 15px;
+}
+.time{
+	display: inline-block;
+	text-align: center;
+	height: 30px;
+	width: 30px;
+	background-color:#440106;	
+	margin-top: 5px;
+	color: #e01222;
+}
+.shangpin1{
+	display: flex;
+	justify-content: space-between;
+}
+.shangpin1 div {
+	width: 195px;
+	/*height: 200px;*/
+	background-color: white;
+} 
+.shangpin1 div img{
+	width: 175px;
+	height: 150px;
+}
+.shangpin1 div p{
+	margin-top: 10px;
+	color: red;
+	font-size: 18px;
+}
+.shangpin1 div img:hover{
+	width: 195px;
+	/*height: 160px;*/
+}
+#chaoliu{
+	/*background-color: red;*/
+	display: flex;
+	margin-top: 20px;
+}
+#chaoliu div{
+	display: inline-block;
+}
+/*#chaoliu div:nth-of-style(1){
+	display: inline-block;
+}*/
+#zc{
+	width: 1000px;
+background-color: #e01222;
+	display: flex;
+	flex-wrap: wrap;
+}
+#zc div{
+	margin: 13px;
+	margin-top: 1px;
+}
+#zc .chang{
+	width: 213px;
+	
+}
+#zc div:hover{
+	opacity: 0.8;
+}
+#quan{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+.man{
+	/*display:flex;
+	justify-content: center;
+	align-items: center;*/
+	width: 200px;
+	height: 200px;	
+	position: relative;
+	background-color: white;
+}
+.man div{
+	width: 100px;
+	position: absolute;
+	background-color: white;
+	left: 10px;
+	z-index: 200;
+	margin-top: 10px;
+	border-top: 5px solid #e01222;
+}
+.man div span:nth-of-type(1){
+	color: #e01222;
+}
+.man div span:nth-of-type(2){
+	color: #e01222;
+	font-size: 40px;
+}
+.man div span:nth-of-type(3){
+	color: #e01222;
+	font-size: 12px;
+}
+.man img{
+	position: absolute;
+	top: 20px;
+	left: 80px;
+	z-index: 10;
+}
+.man img:hover{
+	left: 100px;
+}
+.man div span:nth-of-type(4){
+	display: inline-block;
+	text-align: center;
+	padding-top: 20px;
+	height: 80px;
+	width: 100%;
+	background-color: #e7e7e7;
+	border-top: 2px dotted red;
+}
+.man div span:nth-of-type(5){
+	display: inline-block;
+	text-align: center;
+	height: 20px;
+	width: 100%;
+	background-color: #e01222;
+}
+.pinzhi{
+/*height: 100%;*/
+width: 100%;
+	display: flex;
+	justify-content: center;
+	/*background-color: blue;*/
+	margin-top: 10px;
+	height: 500px;
+}
+.pinzhi div{
+	width: 380px;
+	height: 400px;
+	background-color: white;
+	margin: 12px;
+}
+.pinzhi div .see{
+	width: 100%;
+	height: 40px;
+	background-color: #348790;
+
+}
+.pinzhi div .see span{
+	color: white;
+	font-size: 30px;
+}
+.pinzhi div .see a{
+	color: white;
+	margin-left: 180px;
+}
+.cd{
+	display: flex;
+	flex-wrap: wrap; 
+	/*background-color: blue;*/
+}
+.cd .erji{
+	width: 150px;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0.2px solid gray;
+}
+.cd .erji a{
+	float: right;
+	margin-left: 15px;
+	color: #348790;
+}
+.cd .erji a img:hover{
+	/*width:80px;*/
+	height: 80px;
+}
+.mn img{
+	margin:0;
+	width:445px;
+}
+
+.xiangzhi{
+	/*width: 1000px;*/
+	display: flex;
+	justify-content: center;
+}
+
+.lovelife{
+	display: flex;
+	justify-content: center;
+	width: 100%;	
+
+}
+.lovelife>div{
+	width: 570px;
+	height: 500px;
+	background-color: white;
+}
+.lovelife div .navlove{
+	height: 60px;
+	background-color: #994576;
+	display: flex;
+	align-items: center;
+}
+.lof{
+	/*background-color: blue;*/
+	display: inline-block;
+	margin-left: 100px;
+}
+.lof li{
+	
+	display: inline-block;
+	/*width: 20px;*/
+	height: 25px;
+	border: 1px solid lightgray;
+	background-color: #ac6f93;
+	text-align: center;
+	margin-left: 10px;
+	padding: 3px;
+}
+.yij{
+	float: right;
+}
+.feili{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.feili .feipu{
+	width: 220px;
+	height: 300px;
+	background-color:white;
+	margin-left: 10px;
+}
+footer{
+	width: 100%;
+	margin-top: 40px;
+	background-color: #eaeaea;
+}
+footer div:nth-of-type(1) span{
+	font-size: 18px;
+	font-weight: 800;
+}
+footer>div div{
+	margin-top: 30px;
+}
+footer >div:nth-of-type(2){
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid gray;
+}
+footer >div:nth-of-type(2) div{
+	width: 150px;
+	height: 180px;
+
+}
+footer >div:nth-of-type(2) div ul li{
+	font-size: 13px;
+	font-weight: 500;
+	color: black;
+	margin-top: 3px;
+}
+footer div:nth-of-type(2) div ul li a{
+	color: gray;
+}
+.last {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+
+}
+.last ul li{
+	display: inline-block;
+	border-left: 1px solid gray;
+	opacity: 0.7;
+	margin-left: 10px;
+	text-align: center;
+	height: 17px;
+}
+.last ul li a{
+	color: gray;
+	font-size: 12px;
+	text-align: center;
+}
+.soli p{
+	color: gray;
+	font-size: 12px;
+}
+.lastl{
+	display: flex;
+	justify-content: center;
+}
+.lastl a{
+	margin-left: 15px
+}
